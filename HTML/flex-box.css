@@ -1,0 +1,32 @@
+.parent{
+    padding: 4%;
+    margin: 2%;
+    border: 1px solid green;
+    /* Create a flexible container which makes all items flexible */
+    display: flex;
+    height: 500px;
+    background-color: coral;
+    /* aligns flexible items horizontally */
+    justify-content: center;
+    /* aligns flexible items vertically */
+    align-items: center;
+    flex-direction:column;
+}
+
+.child{
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 2%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    /* hides the element from the page occupying its space */
+    /* display: none; */
+    /* hides the element from the page */
+    visibility: hidden;
+}

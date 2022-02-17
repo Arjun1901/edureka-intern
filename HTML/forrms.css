@@ -46,3 +46,9 @@
      padding:30px 10px;
      margin:30px 10px;
   }
+
+  .display{
+      display: inline;
+      display: block;
+      display: inline-block;
+  }

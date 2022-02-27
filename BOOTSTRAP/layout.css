@@ -1,0 +1,12 @@
+.border{
+    border: 1px solid lightblue;
+}
+
+.bg-dark{
+    background-color: lightseagreen !important
+}
+
+.btn{
+    font-weight: bolder;
+    background-color: blue;
+}
